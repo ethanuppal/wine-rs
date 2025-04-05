@@ -1,0 +1,10 @@
+[package]
+name = "wine"
+authors = ["Ethan Uppal"]
+version = "0.0.0"
+edition = "2024"
+description = "Rust formalization for driving wine"
+repository = "https://github.com/ethanuppal/wine-rs"
+documentation = "https://docs.rs/wine/latest/wine/"
+readme = "README.md"
+license = "MPL-2.0"
