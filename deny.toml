@@ -1,0 +1,17 @@
+[graph]
+targets = ["aarch64-apple-darwin", "x86_64-apple-darwin"]
+all-features = true
+
+[bans]
+multiple-versions = "deny"
+wildcards = "deny"
+allow = []
+
+[sources]
+unknown-registry = "deny"
+unknown-git = "deny"
+required-git-spec = "rev"
+
+[licenses]
+allow = ["MPL-2.0"]
+confidence-threshold = 1.0
